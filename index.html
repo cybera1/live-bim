@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/swiper-bundle.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="pre-loader">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+
+    <div id="particles-js"></div>
+    <nav class="navbar">
+        <a href="./">
+            <div class="logo">
+                <img src="./images/FINAL LOGO.pdf (Logo).png" alt="Image doesn't load" />
+            </div>
+        </a>
+        <div class="hambarger">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <ul class="nav-list">
+            <li><a href="./">Home</a></li>
+            <li><a href="./about_us.html">About Us</a></li>
+            <li><a href="./services.html">BIM Service</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./career.html">Career</a></li>
+            <li><a href="./contact_us.html">Contact Us</a></li>
+        </ul>
+        <ul class="mobile_nav" id="mobile_nav">
+            <div class="close-nav_menu">
+                <i class="fa-solid fa-times"></i>
+            </div>
+            <div class="list">
+                <li><a href="./" data-after="Home">Home</a></li>
+                <li><a href="./about_us.html" data-after="About Us">About&nbsp;Us</a></li>
+                <li><a href="./services.html" data-after="BIM Service">BIM&nbsp;Service</a></li>
+                <li><a href="./portfolio.html" data-after="Portfolio">Portfolio</a></li>
+                <li><a href="./career.html" data-after="Career">Career</a></li>
+                <li><a href="./contact_us.html" data-after="Contact Us">Contact&nbsp;Us</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <section class="home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/arch.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Architecture</h1>
+                        <p>Civil Architecture is a cultural practice preoccupied with the making of buildings and books
+                            about them. The work of Civil asks what it means to produce architecture in a decidedly
+                            un-civil time, presenting a new civic character for a global condition.</p>
+                        <div class="slider-btn">
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/structure.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Structure</h1>
+                        <p>Structural engineering is a sub-discipline of civil engineering in which structural engineers
+                            are trained to design the 'bones and muscles' that create the form and shape of man-made
+                            structures.</p>
+                        <div class="slider-btn">
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/landscaping.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Land Scapping</h1>
+                        <p>Landscaping refers to any activity that modifies the visible features of an area of land,
+                            including the following: Living elements, such as flora or fauna; or what is commonly called
+                            gardening, the art and craft of growing plants with a goal of creating a beauty within the
+                            landscape.</p>
+                        <div class="slider-btn">
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/PPT_PIC/02.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Interior</h1>
+                        <p>Interior designers make interior spaces functional, safe, and beautiful for almost every type
+                            of building. Interior designers make indoor spaces functional, safe, and beautiful by
+                            determining space requirements and selecting essential and decorative items, such as colors,
+                            lighting, and materials.</p>
+                        <div class="slider-btn">
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/mep.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>MEP</h1>
+                        <p>Mechanical, electrical and plumbing (MEP) refers to these aspects of building design and
+                            construction. In commercial buildings, these elements are often designed by a specialized
+                            engineering firm.</p>
+                        <div class="slider-btn">
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="cards" id="cards">
+        <div class="left">
+            <div class="img" id="ung-1">
+                <img src="./images/PPT_PIC/VISION.png" alt="Vision" width="100%">
+            </div>
+            <div class="img" id="ung-2">
+                <img src="./images/PPT_PIC/mission.png" alt="Mission" width="100%">
+            </div>
+            <div class="img" id="ung-3">
+                <img src="./images/PPT_PIC/CORE_Values.png" alt="Values" width="100%">
+            </div>
+        </div>
+        <div class="right">
+            <div class="content" id="content-1">
+                <h3>Our vision</h3>
+                <p>We envision emerging as a pioneer in the Engineering Technology sector by delivering integrated
+                    sustainable engineering solutions.
+                </p>
+            </div>
+            <div class="content" id="content-2">
+                <h3>Our mission</h3>
+                <p>Our mission is to provide creative, cost effective and practically achievable engineering solutions.
+                </p>
+            </div>
+            <div class="content" id="content-3">
+                <h3>Our values</h3>
+                <p>We standby and believe in what we profess.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mob_cards">
+        <div class="box" id="box-i">
+            <div class="image">
+                <img src="./images/PPT_PIC/VISION.png" alt="Vision" width="100%">
+            </div>
+            <div class="content">
+                <h3>Our vision</h3>
+                <p>We envision emerging as a pioneer in the Engineering Technology sector by delivering integrated
+                    sustainable engineering solutions.
+                </p>
+            </div>
+        </div>
+        <div class="box" id="box-ii">
+            <div class="image">
+                <img src="./images/PPT_PIC/mission.png" alt="Mission" width="100%">
+            </div>
+            <div class="content">
+                <h3>Our mission</h3>
+                <p>Our mission is to provide creative, cost effective and practically achievable engineering solutions.
+                </p>
+            </div>
+        </div>
+        <div class="box" id="box-iii">
+            <div class="image">
+                <img src="./images/PPT_PIC/CORE_Values.png" alt="Values" width="100%">
+            </div>
+            <div class="content">
+                <h3>Our values</h3>
+                <p>We standby and believe in what we profess.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-us">
+        <div class="left">
+            <img src="./images/PPT_PIC/About_us.png" alt="" width="70%">
+        </div>
+        <div class="right">
+            <h3>About us</h3>
+            <p>The emergence of Building Information Modeling (BIM) in the construction industry has come with promises
+                of improving efficiency in project delivery and asset management. BIM concerns the digitization of the
+                building project by depending on information technology capabilities already achieved in various
+                professional domains associated with different stages of the building life cycle.
+            </p>
+            <br>
+            <p>At Beyond BIM, we provide a full range of architectural and multi-disciplinary engineering services.
+                These services cater to all the stakeholders in a typical built environment - the Developer / Owner,
+                Design Consultants & the Contractor / Fabricator with extensive experience on BIM implementation on
+                large scale complex projects.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- <section class="values" id="values">
+        <h2>OUR <span>VALUE PROPOSITION</span></h2>
+        <div class="container"></div>
+    </section> -->
+
+
+
+    <section class="map">
+        <div class="container"></div>
+    </section>
+
+    <section class="class">
+        <div class="left">
+            <img src="./images/PPT_PIC/bid models-01.png" alt="" height="100%">
+        </div>
+        <div class="right">
+            <ul type="circle">
+                <li>Increase competitiveness and bottom-line: Lower cost structure at reduced risks</li>
+                <li>Utilize in-house core resources on higher value generating activities (increase revenue per employee
+                    and reduce employee cost as a % of revenues)</li>
+                <li>Lean operations and flexible resourcing (Convert fixed expenses into variable expenses)</li>
+                <li>Reduced overheads and capex / working capital requirements </li>
+                <li>Higher level of detailed engineering to reduce construction costs / errors</li>
+                <li>Ability to better address emerging market requirements</li>
+                <li>Global footprint support leveraging a hybrid delivery model</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="about-us extra-knowl">
+        <div class="left">
+            <img src="./images/PPT_PIC/owners-01.png" alt="" height="100%">
+        </div>
+        <div class="right">
+            <h3>OUR CLIENTELE</h3>
+            <p>At Beyond BIM, we cater to the following entities.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="heading">
+            <div class="logo">
+                <img src="./images/FINAL LOGO.pdf (Logo).png" alt="#####" height="100%">
+            </div>
+            <p>Established in 2021, BeyondBIM is a world leader in Design Documentation & BIM consultancy.</p>
+        </div>
+
+        <div class="right_bar">
+
+            <ul>
+                <h3>Services</h3>
+                <li><a href="#">BIM</a></li>
+                <li><a href="#">Interior design</a></li>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">3D visualization</a></li>
+                <li><a href="#">Engineering</a></li>
+            </ul>
+            <ul>
+                <h3>Contact With BeyondBIM</h3>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Our Team</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright_and_links">
+        <span>&copy; BeyondBIM Pvt. Ltd. 2021</span>
+        <div class="social_links">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    <script src="./JS/jQuery.2.1.min.js"></script>
+    <script src="./JS/particle-js.js"></script>
+    <script src="./JS/app2.js"></script>
+    <script src="./JS/app.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/swiper-bundle.min.js"></script>
+    <script>
+        window.addEventListener('scroll', () => {
+            var nav_2 = document.querySelector('.nav-2');
+            nav_2.classList.toggle("fixed", window.scrollY > 610);
+        });
+    </script>
+</body>
+
+</html>
